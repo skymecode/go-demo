@@ -1,0 +1,11 @@
+65388bfc40359700013f02d6
+
+65388ae58abec200010947ea
+6528a92862e77f0001e929e8
+db.zhike_circulation_item.findOne({_id:ObjectId("65388bfc40359700013f02d6")})
+db.zhike_circulation_item.findOne({_id:ObjectId("65388ae58abec200010947ea")})
+db.zhike_circulation_item.findOne({_id:ObjectId("6528a92862e77f0001e929e8")})
+
+db.zhike_circulation_item.update({_id:ObjectId("65388bfc40359700013f02d6")},{$set:{status:0}})
+db.zhike_circulation_item.update({_id:ObjectId("65388ae58abec200010947ea")},{$set:{status:0}})
+db.zhike_circulation_item.update({_id:ObjectId("6528a92862e77f0001e929e8")},{$set:{status:0}})

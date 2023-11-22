@@ -1,0 +1,334 @@
+http_listen = ":8094"
+admin_address = ":18094"
+grpc_address = ":28094"
+
+platform = "mini-rs"
+service_index_path = "activity"
+service_name="qc-object"
+cache_enable = true
+cronjob_enable = true
+env = "prod"
+
+sdk_host = "http://sdk-tb-service:8080"
+aes_key = "33@34s_AZ2@22AG0dO1vbcq0b0eFwES#"
+achieve_sync_concurrency = 5
+
+[[seller_nick]]
+    name = "芝华仕旗舰店"
+    shop_id = "5dc614fa12c405001a87c835"
+
+[[seller_nick]]
+    name = "cheers芝华仕一统专卖店"
+    shop_id = "5f50be1862b7ac001dce9afc"
+
+[[seller_nick]]
+    name = "perfectdiary旗舰店"
+    shop_id = "5f3f836a41e7f600188652ef"
+
+[[seller_nick]]
+    name = "杜可风按"
+    shop_id = "5bfe7a6a89bc4612f16586a5"
+    is_kuka = true
+    platform= "tb"
+    tenant_id="q-6294692e86eccea4343a437c" # 数晓晓的tenant_id
+    desc = "淘宝测试店铺-kuka"
+
+[[seller_nick]]
+    name = "顾家艺购官方旗舰店"
+    shop_id = "6143eec86ebd17000d941c60"
+    is_kuka = true
+    platform= "jd"
+    tenant_id="q-62331e4b21774b174b363c86"
+    desc = "【京东】顾家家居POP店"
+
+[[seller_nick]]
+    name = "顾家家居京东自营旗舰店"
+    shop_id = "6143edddfb530f000dc16188"
+    is_kuka = true
+    platform= "jd"
+    tenant_id="q-62331e4b21774b174b363c86"
+    desc = "【京东】顾家家居自营店"
+
+[[seller_nick]]
+    name = "顾家家居官方旗舰店"
+    shop_id = "6143f37218f6b6000e173bc3"
+    is_kuka = true
+    platform= "tb"
+    tenant_id="q-62331e4b21774b174b363c86"
+    desc = "【淘宝】顾家家居G店"
+
+[[seller_nick]]
+    name = "kuka顾家家居旗舰店"
+    shop_id = "6143efcd18f6b6000f173beb"
+    is_kuka = true
+    platform= "tb"
+    tenant_id="q-62331e4b21774b174b363c86"
+    desc = "【淘宝】顾家家居K店"
+
+[[seller_nick]]
+    name = "pe小美"
+    shop_id = "5f7f38570b044f001680d861"
+
+[[seller_nick]]
+    name = "成都小多科技有限公司"
+    shop_id = "5640050589bc461b91cd3715"
+
+[[seller_nick]]
+    name = "buydeem北鼎官方旗舰店"
+    shop_id = "5e941d3406a10c00172bd621"
+
+[[seller_nick]]
+    name = "佰丝堂假发旗舰店"
+    shop_id = "6049782b007221000e84d693"
+
+[[seller_nick]]
+    name = "苏苏姐家的"
+    shop_id = "5d282bce589b090013d2e049"
+
+[[seller_nick]]
+    name = "老板官方旗舰店"
+    shop_id = "5a48c5c489bc46387361988d"
+
+[[seller_nick]]
+    name = "佰丝堂泰捷专卖店"
+    shop_id = "606680aed16a61000fb7f123"
+
+[[seller_nick]]
+    name = "西芙旗舰店"
+    shop_id = "5a48c5c489bc46387361988d"
+
+[[seller_nick]]
+    name = "佰丝堂哈顿专卖店"
+    shop_id = "60668411f578270010cb6595"
+
+[[seller_nick]]
+    name = "佰丝堂卡璐专卖店"
+    shop_id = "60668084f578270010cb657b"
+
+[[seller_nick]]
+    name = "卡琦诺旗舰店"
+    shop_id = "6066ba595ebb7300177e25b3"
+
+[[seller_nick]]
+    name = "壹念旗舰店"
+    shop_id = "59c525ff89bc4604e30c4e35"
+
+[[seller_nick]]
+    name = "家旺达聚美家居馆"
+    shop_id = "5e950cb5f2e7450019e2ebdf"
+
+[[seller_nick]]
+    name = "wis旗舰店"
+    shop_id = "5c2dfa0dd0aed83b2f0bf635"
+
+[[seller_nick]]
+    name = "骆驼男装旗舰店"
+    shop_id = "5a4c950c5a9f720c49748fe8"
+
+[[seller_nick]]
+    name = "卡尔适旗舰店"
+    shop_id = "606d7095f4b3a2000e0e2676"
+
+[[seller_nick]]
+    name = "美柏旗舰店"
+    shop_id = "606d729b5ebb7300157e253b"
+
+[[seller_nick]]
+    name = "狄普旗舰店"
+    shop_id = "606d6ccae141ac00103e8dba"
+
+[[seller_nick]]
+    name = "adking旗舰店"
+    shop_id = "5e7c06c92a97f90018be725e"
+
+[[seller_nick]]
+    name = "佳诺运动旗舰店"
+    shop_id = "5e7c07732a97f90018be7283"
+
+[[seller_nick]]
+    name = "adking佐玛专卖店"
+    shop_id = "5e7c073e2a97f90017be5469"
+
+[[seller_nick]]
+    name = "adking优佳专卖店"
+    shop_id = "5e7c07aeb4ec110016146222"
+
+[[seller_nick]]
+    name = "博奥尼欧佰特专卖店"
+    shop_id = "5d19f748b04c1800149f245a"
+
+[[seller_nick]]
+    name = "飞屋旗舰店"
+    shop_id = "5cea3d0bb04c180011173ffc"
+
+[[seller_nick]]
+    name = "博奥尼旗舰店"
+    shop_id = "5c8211df89bc465df312eb13"
+
+[[seller_nick]]
+    name = "博奥尼海球专卖店"
+    shop_id = "5d22aebb98ef4100138cdec5"
+
+[[seller_nick]]
+    name = "点亮空间旗舰店"
+    shop_id = "5992a265369f995194c2d10d"
+
+[[seller_nick]]
+    name = "好欢螺旗舰店"
+    shop_id = "5e69f30ea1853900103829cb"
+
+[[seller_nick]]
+    name = "梓晨旗舰店"
+    shop_id = "58dccc341a6ab2110835652c"
+
+[[seller_nick]]
+    name = "百宝汇家居专营店"
+    shop_id = "5c18605c89bc4612f165cdff"
+
+[[seller_nick]]
+    name = "海信电视官方旗舰店"
+    shop_id = "5bbacae489bc465c6fd56a89"
+
+[[seller_nick]]
+    name = "清清玉露"
+    shop_id = "59454f5748d76c2539ffe49e"
+
+[[seller_nick]]
+    name = "光彩年华旗舰店"
+    shop_id = "5c7e180489bc465df312d2a3"
+
+[[seller_nick]]
+    name = "小壮熊旗舰店"
+    shop_id = "5e6a16465a75050023a3828e"
+
+[[seller_nick]]
+    name = "aa恋人"
+    shop_id = "5df87d6f937942002e096b91"
+
+[[seller_nick]]
+    name = "西门子百诚专卖店"
+    shop_id = "5c0f27569bac0854835e2ba1"
+
+[[seller_nick]]
+    name = "惠而浦官方旗舰店"
+    shop_id = "5d6666999a5607000f03624b"
+
+[[seller_nick]]
+    name = "松下洗衣机官方旗舰店"
+    shop_id = "5c43f52e9bac0852678fa86c"
+
+[[seller_nick]]
+    name = "leaigao"
+    shop_id = "5b3ae75a89bc464b41a327f6"
+
+[[seller_nick]]
+    name = "慕思旗舰店"
+    shop_id = "613072daec7097000e493fb6"
+
+[[seller_nick]]
+    name = "海洋至尊旗舰店"
+    shop_id = "61458b1918f6b60010173c39"
+
+[[seller_nick]]
+    name = "方太官方旗舰店"
+    shop_id = "5cac112e98ef4100118a9c9f"
+
+[[seller_nick]]
+    name = "邓锐zero"
+    shop_id = "613ef1e1ec7097000e494123"
+
+[session]
+  name = "OBJ_ID"
+  schema = "https://"
+  domain = "qixing-mini.1yangai.com"
+  max_age = 36000        # 0 浏览器生效，<0 清空，>0 单位为妙
+  secure = false
+  http_only = false     # 客户端要实现 tab 级别的 Cookie，必须设置为 false
+
+[mock]
+    session = ""    # JSON 序列化后的
+    # session = '{"snick":"尾巴儿1996"}'
+
+#大数据相关查询服务
+[big_data_service]
+    impala_server = "query-sdk-service:8082"
+    clickhouse_server = "general-query-sdk-service:8082"
+    module = "qc-object"
+    is_manual = false
+    step_size = 100
+
+# 标准日志配置
+[std_log]
+    level = "debug"
+    file = "/var/log/xiaoduo/qc-object.log"
+    err_file = "/var/log/xiaoduo/qc-object.err.log"
+    app_name = "qc-object"
+    auto_init = true
+
+# 接口日志配置
+[api_log]
+    level = "debug"
+    file = "/var/log/xiaoduo/qc-object.api.log"
+    app_name = "qc-object"
+    auto_init = true
+
+[[mongo]]
+    alias = "xd-online"
+    url = "mongodb://<ecs-mongodb-online.user>:<ecs-mongodb-online.passwd>@<ecs-mongodb-online.str_url>/?replicaSet=<ecs-mongodb-online.replicaset>&authSource=<ecs-mongodb-online.authdb>"
+    timeout = 5
+    auto_init = true
+
+
+[[mongo]]
+    alias = "xd-offline"
+    url = "mongodb://<ecs-mongodb-offline.user>:<ecs-mongodb-offline.passwd>@<ecs-mongodb-offline.str_url>/?replicaSet=<ecs-mongodb-offline.replicaset>&authSource=<ecs-mongodb-offline.authdb>"
+    timeout = 5
+    auto_init = true
+
+[customer_service]
+    zhike_grpc_service = "zhike-service:8082"
+    zhike_http_service = "http://zhike-service:8080"
+    fishpond_http_service = "http://fishpond-service:8080"
+    grpc_concurrence = 5
+    http_concurrence = 5
+
+[oc_trace]
+    sample_type         = 0
+    fraction            = 10.0
+    agent_end_point     = "localhost:6831"
+    collector_end_point = ""
+    service_name        = "qc-object"
+    username            = ""
+    trace_log_file      = "/dev/null"
+
+[[repo]]
+    name = "qc-object"
+    driver = "postgres"
+    logger_level = "trace"
+    conn = "host=10.22.134.218 port=5432 user=qc_object dbname=postgres password=qcobjadmin sslmode=disable TimeZone=Asia/Shanghai"
+    pool_max_idle_sec = 3_600
+    pool_max_life_sec = 86_400
+    pool_max_idle_conn = 100
+    pool_max_open_conn = 100
+    tables = ["tenant_shops", "tenant_groups", "snick_names", "snick_settings", "promotions","daily_orders", "daily_goals", "refresh_plan_record"]
+[[redis]]
+    alias = "cache"
+    address = ["10.248.32.114:8901"]
+    db = 0
+[[pub]]
+    name = "kuka_sync_worker"
+    enable = true
+    block_if_queue_full = true
+    max_pending_messages = 1000
+    retry = 3
+    send_timeout = 3
+    topic = "persistent://marketing/kuka/kuka_sync_qcobj"
+    url = "pulsar://pulsar-cluster01-slb:6650"
+[[sub]]
+    name = "kuka_sync_worker"
+    enable = true
+    receive_queue_size = 5000
+    subscription_name = "qc-object"
+    subscription_type = 1
+    topic = "persistent://marketing/kuka/kuka_sync_qcobj"
+    url = "pulsar://pulsar-cluster01-slb:6650"
